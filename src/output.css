@@ -8,6 +8,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-blue-500: oklch(62.3% 0.214 259.815);
+    --color-gray-100: oklch(96.7% 0.003 264.542);
     --color-gray-400: oklch(70.7% 0.022 261.325);
     --color-gray-600: oklch(44.6% 0.03 256.802);
     --color-black: #000;
@@ -201,6 +202,9 @@
   .mt-30 {
     margin-top: calc(var(--spacing) * 30);
   }
+  .mt-40 {
+    margin-top: calc(var(--spacing) * 40);
+  }
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
   }
@@ -212,6 +216,9 @@
   }
   .mb-30 {
     margin-bottom: calc(var(--spacing) * 30);
+  }
+  .mb-40 {
+    margin-bottom: calc(var(--spacing) * 40);
   }
   .ml-0 {
     margin-left: calc(var(--spacing) * 0);
@@ -290,6 +297,9 @@
   }
   .h-\[240vh\] {
     height: 240vh;
+  }
+  .h-\[245px\] {
+    height: 245px;
   }
   .h-\[250vh\] {
     height: 250vh;
@@ -427,6 +437,9 @@
   .bg-\[\#F9F9F9\] {
     background-color: #F9F9F9;
   }
+  .bg-gray-100 {
+    background-color: var(--color-gray-100);
+  }
   .bg-transparent {
     background-color: transparent;
   }
@@ -452,6 +465,9 @@
   }
   .px-5 {
     padding-inline: calc(var(--spacing) * 5);
+  }
+  .px-8 {
+    padding-inline: calc(var(--spacing) * 8);
   }
   .px-10 {
     padding-inline: calc(var(--spacing) * 10);
